@@ -1,0 +1,154 @@
+.active {
+  color: var(--almost-black);
+}
+
+.closeButtonContainer {
+  display: none;
+}
+
+.closeButtonContainer img {
+  cursor: pointer;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 3rem;
+  font-size: 1.8rem;
+}
+
+.menuGroup {
+  display: flex;
+}
+
+.menuGroup a {
+  color: var(--medium-gray);
+}
+
+.registerButton {
+  border: 0.2rem solid var(--medium-gray);
+  padding: 1rem 2rem;
+  border-radius: 1.2rem;
+}
+
+.registerButton:hover {
+  border: 0.2rem solid var(--almost-black);
+}
+
+.subMenu {
+  cursor: pointer;
+  color: var(--medium-gray);
+  margin-right: 2rem;
+  position: relative;
+}
+
+.subMenu:hover,
+.subMenu a:hover {
+  color: var(--almost-black);
+}
+
+.subMenu:hover .arrow svg path {
+  stroke: var(--almost-black);
+}
+
+.subMenu div {
+  display: flex;
+  align-items: center;
+}
+
+.subMenu li {
+  margin-bottom: 1rem;
+}
+
+.subMenu li:last-child {
+  margin-bottom: 0;
+}
+
+.subMenu li svg {
+  margin-right: 1rem;
+}
+
+.subMenu svg {
+  margin-left: 1rem;
+}
+
+.subMenu ul {
+  padding-inline-start: 0;
+}
+
+.subMenuList {
+  position: absolute;
+  font-size: 1.6rem;
+  top: 3rem;
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 1rem;
+}
+
+.subMenuList li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.subMenuList li img {
+  width: 1.8rem;
+  margin-right: 1rem;
+}
+
+@media only screen and (max-width: 930px) {
+  .closeButtonContainer {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .container {
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: var(--almost-white);
+    width: 40rem;
+    padding: 2rem;
+  }
+
+  .menuGroup {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .menuGroup a {
+    margin-right: 0;
+  }
+
+  .menuGroup:nth-child(2) {
+    margin-top: 5rem;
+  }
+
+  .menuGroup:last-child {
+    align-items: center;
+  }
+
+  .registerButton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .subMenu {
+    margin-bottom: 2rem;
+  }
+
+  .subMenuList {
+    position: static;
+    box-shadow: none;
+  }
+}
+
+@media only screen and (max-width: 399px) {
+  .container {
+    width: 100%;
+  }
+}
