@@ -13,7 +13,7 @@
   },
   "homepage": "https://hieuhmle.github.io/intro-section-with-dropdown-navigation",
   "scripts": {
-    "predepoy": "yarn build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
