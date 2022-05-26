@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/hieuhmle/intro-section-with-dropdown-navigation)
-- Live Site URL: [Live site](https://hieuhmle.github.io/intro-section-with-dropdown-navigation/)
+- Live Site URL: [Live site](https://hieulecoder.github.io/intro-section-with-dropdown-navigation/)
 
 ## My process
 
